@@ -183,10 +183,3 @@ elif n==3:
 else:
   print("Number of items is more")
   
-  
-
-
-
-
-
-
