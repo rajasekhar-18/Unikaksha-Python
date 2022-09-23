@@ -1,0 +1,23 @@
+#Greatest of two numbers
+a=int(input())
+b=int(input())
+if(a==b):
+    print(f'{a} is equal to {b}')
+elif(a<b):
+   print(f'{a} is less than {b}')
+else:
+   print(f'{a} is greater than {b}')
+
+
+#Vowel Or Consonants
+ch=input().lower()
+vow="aeiou"
+if(ch>='a' and ch<='z'):
+  if ch in vow:
+      print('Vowel')
+  else:
+       print('Consonant')
+else:
+    print('Not an alphabet')
+    
+#Grading System
