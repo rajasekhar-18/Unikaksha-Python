@@ -1,0 +1,72 @@
+#Binary equivalent of a number using recursion
+def convert (n):
+    if n>0:
+        convert(n//2)
+        print(n%2,end="")
+     
+dec=int(input())
+convert(dec)
+
+
+#Fibonacci Series
+nterms = int(input("How many terms? "))
+n1, n2 = 0, 1
+count = 0
+if nterms <= 0:
+   print("Please enter a positive integer")
+elif nterms == 1:
+   print("Fibonacci sequence upto",nterms,":")
+   print(n1)
+else:
+   print("Fibonacci sequence:")
+   while count < nterms:
+       print(n1)
+       nth = n1 + n2
+       n1 = n2
+       n2 = nth
+       count += 1
+       
+       
+ #Odd or Even
+ def evenorodd (x):
+ if (x>0):
+  if(x%2==0):
+     print("Even!")
+  else:
+    print("Odd!")
+    
+a=int(input())
+evenorodd (a)
+
+
+#Factorial
+def fact (n):
+  if n==0:
+     return 1
+  elif n==1:
+     return 1
+  else:
+     return(n*fact(n-1))
+a=int(input())
+print(fact(a))
+
+
+#LCM of two numbers
+def lcm (x,y,z):
+ if (x*z)%y==0:
+     print(x*z)
+ else:
+     lcm (x,y,z+1)
+     
+a=int(input())
+b=int(input())
+lcm (a,b,1)
+
+
+#Decimal to Binary
+def convert (n):
+    if n>0:
+        convert(n//2)
+        print(n%2,end="")
+dec=int(input())
+convert(dec)
