@@ -1,0 +1,24 @@
+#Add an item
+tuple1=(4,6,2,8,3,1)
+tuple2=(4,6,2,8,3,1,9)
+print(tuple1)
+print(tuple2)
+tuple1=tuple1[:5]+(15,20,25)+tuple1[:5]
+list1=list(tuple1)
+print(list(tuple1))
+list1.append(30)
+tuple1=tuple(list1)
+print(tuple1)
+
+
+#Length of a tuple
+tupleObject=('c','y','f','u','n','o')
+length=len(tupleObject)
+print(f'{tupleObject}')
+print(length)
+
+
+#Reverse a Tuple
+tupleObject=('c','y','f','u','n','o')
+length=len(tupleObject)
+print(tupleObject[::-1])
