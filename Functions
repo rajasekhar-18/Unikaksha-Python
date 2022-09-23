@@ -1,0 +1,27 @@
+#Arithmetic Operators
+a=int(input())
+b=int(input())
+add=a+b
+sub=a-b
+mul=a*b
+mod=a/b
+rem=a//b
+fd=a%b
+print(add)
+print(sub)
+print(mul)
+print(mod)
+print(rem)
+print(fd)
+
+
+#Square Root
+a=int(input())
+s=a**2
+print(s)
+
+
+#Cube Root
+a=int(input())
+c=a**3
+print(c)
